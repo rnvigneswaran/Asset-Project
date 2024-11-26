@@ -1,0 +1,59 @@
+/* universal values for margin, padding */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* universal values for margin, padding */
+
+a{
+    text-decoration: none;
+}
+
+/* header section */
+
+header{
+    background-color: #696969;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/* header section */
+
+/* container section */
+
+.container{
+    width: 80%;
+}
+
+/* container section */
+
+header nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+header nav a{
+    color: #ffffff;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20% 0%;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
