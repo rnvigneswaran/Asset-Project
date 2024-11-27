@@ -12,48 +12,31 @@ a{
     text-decoration: none;
 }
 
-/* header section */
-
 header{
-    background-color: #696969;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-}
-
-/* header section */
-
-/* container section */
-
-.container{
-    width: 80%;
-}
-
-/* container section */
-
-header nav{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-header nav a{
-    color: #ffffff;
-}
-
-section{
+    background-color: #fa8072;
+    height: 15vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    padding: 20% 0%;
 }
 
-section form{
+.logo-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+.header-container{
+    width: 80%;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header-container div{
+    display: flex;
+    justify-content: center;
     gap: 20px;
 }
